@@ -95,7 +95,7 @@ h2.contentText {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 1.5vw;
+	font-size: 3vh;
 	font-family: 'Pacifico', cursive;
 	color: black;
 	text-decoration: underline;
@@ -133,7 +133,7 @@ h2.contentText {
 .undertext {
 	margin-top: 20px;
 	font-family: 'Dancing Script', cursive;
-	font-size: 1vw;
+	font-size: 2vh;
 }
 
 
@@ -385,6 +385,12 @@ footer {
 	.recipe {
 		padding: 0 0 0 10px;
 	}
+
+
+	
+}
+
+@media (max-width: 450px) {
 
 	.recipePic {
 		width: auto;
