@@ -95,12 +95,14 @@ h2.contentText {
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	font-size: 3vh;
+	font-size: 4vh;
 	font-family: 'Pacifico', cursive;
 	color: black;
 	text-decoration: underline;
 	text-decoration-color: pink;
 	text-shadow: 0 0 5px pink;
+	justify-self: center;
+	align-self: center;
 }
 
 .padder {
@@ -387,7 +389,7 @@ footer {
 	}
 
 	.recipeDescription {
-		font-size: 4vh;	
+		font-size: 4.7vh;	
 	}
 
 	.undertext {
