@@ -397,6 +397,10 @@ footer {
 	h2.contentText {
 		font-size: 4.5vh;
 	}
+
+	p.contentText {
+		font-size: 2.5vh;
+	}
 }
 
 @media (max-width: 450px) {
