@@ -386,8 +386,17 @@ footer {
 		padding: 0 0 0 10px;
 	}
 
+	.recipeDescription {
+		font-size: 4vh;	
+	}
 
-	
+	.undertext {
+		font-size: 3vh;
+	}
+
+	h2.contentText {
+		font-size: 4.5vh;
+	}
 }
 
 @media (max-width: 450px) {
