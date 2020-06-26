@@ -4,6 +4,55 @@ html {
 	height: 100%;
 }
 
+.content {
+	background-color: white;
+	width: 100%;
+	justify-self: center;
+	align-self: center;
+	text-align: center;
+	padding-top: 50px;
+	font-family: 'Holtwood One SC', serif;
+
+}
+
+.select {
+	background-color: white;
+	width: 100%;
+	justify-self: center;
+	align-self: center;
+	text-align: center;
+	margin: 0;
+	font-family: 'Holtwood One SC', serif;
+
+}
+
+.contactlink {
+	float: right;
+}
+
+p.contentText {
+	font-size: 1vw;
+	font-family: 'Dancing Script', cursive;
+	text-shadow: 0 0 5px pink;
+	
+}
+
+h2.contentText {
+	font-size: 3vw;
+	font-family: 'Pacifico', cursive;
+	text-decoration: underline;
+	text-decoration-color: pink;
+	text-shadow: 0 0 5px pink;
+	color: rgb(0, 0, 0);
+}
+
+.content2 {	
+	width: 100%;
+	text-align: center;	
+	background-color: rgb(255, 255, 255);
+	font-family: 'Holtwood One SC', serif;
+}
+
 .intro1 {
 	margin-top: 200px;
 	text-align: center;
@@ -43,10 +92,11 @@ html {
 	left: 50%;
 	transform: translate(-50%, -50%);
 	font-size: 1.5vw;
-	font-family: 'Holtwood One SC', serif;
-	color: pink;
+	font-family: 'Pacifico', cursive;
+	color: black;
 	text-decoration: underline;
-	text-decoration-color: lightgrey;
+	text-decoration-color: pink;
+	text-shadow: 0 0 5px pink;
 }
 
 .padder {
@@ -191,13 +241,14 @@ div.col {
 	width: 100%;
 	background: pink;
 	display: flex;
-	align-items: center;
 	position: relative;
+	flex-direction: row;
+	
 }
 
 footer {
 	opacity: 0.7;
-	text-align: center;
+	text-align: right;
 	position: fixed;
 	height: 30px;
 	bottom: 0;
@@ -224,6 +275,8 @@ footer {
 
 
 /*  */
+
+
 
 .mainContainer {
 	display: flex;
